@@ -1,0 +1,15 @@
+nnsight==0.3.7
+odps
+tqdm
+einops
+jaxtyping
+strenum
+wandb
+zstandard
+pydantic
+StrEnum
+transformer-lens==2.15.4
+datasets==3.5.0
+tokenizers==0.20.3
+huggingface-hub==0.27.0
+flask
