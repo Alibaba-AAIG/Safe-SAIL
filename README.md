@@ -10,7 +10,11 @@ The neuron database covers four major safety domains: politics, pornography, vio
 </p>
 <!-- ![circuit-en](assets/circuit.png) ![circuit-cn](assets/chinese.png) ![circuit-hindi](assets/hindi.png) -->
 The application of this safety-related neuron database toolkit — illustrated through a case study on child sexual abuse — shows that an LLM may follow different activation pathways for the same prompt in different languages. This, in turn, reveals part of the internal mechanism behind the formation of a refusal response in the LLM.
-![demo](assets/demo1.png) ![demo](assets/demo2.png)
+<p align="center">
+  <img src="assets/demo1.png" alt="demo1" width="45%"/>
+  <img src="assets/demo2.png" alt="demo2" width="45%"/>
+</p>
+<!-- ![demo](assets/demo1.png) ![demo](assets/demo2.png) -->
 Our demonstrative interactive website page. The product will be open-sourced soon. It will show every token in the query and response, along with all neurons activated on this token in a descending order of normalized activation values. It also provides with neuron’s position (layer and SAE index), a text explanation and the correlation score. 
 
 
