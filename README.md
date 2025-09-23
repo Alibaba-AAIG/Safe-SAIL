@@ -43,3 +43,17 @@ export SOURCE_MODEL='/your/local/Qwen2.5-3B-Instruct'
 ```bash
 python simple_server.py
 ```
+
+## Citation
+This project builds upon `nnsight`. If you use this project or the underlying library in your work, please cite:
+```bibtex
+@article{fiottokaufman2024nnsightndifdemocratizingaccess,
+  title={NNsight and NDIF: Democratizing Access to Foundation Model Internals}, 
+  author={Jaden Fiotto-Kaufman and Alexander R Loftus and Eric Todd and Jannik Brinkmann and Caden Juang and Koyena Pal and Can Rager and Aaron Mueller and Samuel Marks and Arnab Sen Sharma and Francesca Lucchetti and Michael Ripa and Adam Belfki and Nikhil Prakash and Sumeet Multani and Carla Brodley and Arjun Guha and Jonathan Bell and Byron Wallace and David Bau},
+  year={2024},
+  eprint={2407.14561},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2407.14561}
+}
+
