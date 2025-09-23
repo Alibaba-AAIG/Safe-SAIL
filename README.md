@@ -24,7 +24,7 @@ Our demonstrative interactive website page. The product will be open-sourced soo
 - [ ] `data/activation/` - Directory containing files related to neuron activations
   - [x] `indices/` - Indices for safety-related neurons
   - [x] `quantiles/` - Activation distribution of safety-related neurons
-- [x] `requirements.txt` - Python package dependencies
+- [x] `requirements.txt` - Python package dependencies  
 *Please download `sae_checkpoints` and `activation` from [huggingface](https://huggingface.co/OysterAI/Qwen2.5-3B-Instruct-SAEs)
 
 ## Setup
