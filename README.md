@@ -21,11 +21,11 @@ Our demonstrative interactive website page. The product will be open-sourced soo
 ## File Checklist
 - [ ] `data/sae_checkpoints/` - Directory containing SAE models of layer 0,8,17,26,35
 - [x] `data/neuron_db/` - Directory containing neuron explanations (explanation related to politics is masked with ***)
-- [ ] `data/activation/` - Directory containing files related to neuron activations
+- [x] `data/activation/` - Directory containing files related to neuron activations
   - [x] `indices/` - Indices for safety-related neurons
-  - [x] `quantiles/` - Activation distribution of safety-related neurons
+  - [ ] `quantiles/` - Activation distribution of safety-related neurons
 - [x] `requirements.txt` - Python package dependencies  
-*Please download `sae_checkpoints` and `activation` from [huggingface](https://huggingface.co/OysterAI/Qwen2.5-3B-Instruct-SAEs)
+*Please download `sae_checkpoints` and `activation/quantiles` from [huggingface](https://huggingface.co/OysterAI/Qwen2.5-3B-Instruct-SAEs)
 
 ## Setup
 To set up the project locally, please follow these steps:
