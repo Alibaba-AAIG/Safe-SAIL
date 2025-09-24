@@ -1,4 +1,5 @@
 # Safe-SAIL: Towards a Fine-grained Safety Landscape of Large Language Models via Sparse Autoencoder Interpretation Framework
+[arxiv](https://arxiv.org/abs/2509.18127) | [huggingface](https://huggingface.co/OysterAI/Qwen2.5-3B-Instruct-SAEs)
 ![Overview of the Safe-SAIL](assets/big_pic.png)
 The overview of the Safe-SAIL, which consists of three phases: SAE Training, Automated Interpretation, and Diagnose Toolkit. This framework trains sparse autoencoders with varying sparsity levels to select the most interpretable configuration, utilizes a large language model to explain neuron activations, and simulates query segments to calculate explanation confidence scores.
 ![Overview of safety-related SAE Neuron Database](assets/db_overview.png)
